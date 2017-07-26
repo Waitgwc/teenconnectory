@@ -1,0 +1,70 @@
+/*.container1 {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  color: red;
+  font-size: 14px;
+  font-weight: 300;
+  background-color:
+
+}
+.container2 {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  color: green;
+  font-size: 14px;
+  font-weight: 300;
+
+}
+*/
+
+#ABC{
+ background-color: red;
+            }
+
+
+#GHI {
+  background-color: green;
+    
+}
+/*.section.bg {
+  background: #4F646F;
+}
+*/
+/* 
+  Columns 
+*/
+.col {
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.col.three {
+  width: 31.3%;
+  margin: 0 1%;
+}
+/*
+  Column specifics
+*/
+.col .imgholder {
+  height: 250px;
+  width: 100;
+  background: #535657;
+}
+/*
+  Text
+*/
+h2 {
+  font-family:sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+}
+.col h3 {
+  text-align: center;
+}
+.col h1 {
+  text-align: center;}
