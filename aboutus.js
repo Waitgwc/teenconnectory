@@ -1,4 +1,4 @@
-var myIndex = 0;
+/*var myIndex = 0;
 carousel();
 
 function carousel() {
@@ -16,3 +16,4 @@ function carousel() {
 
     setTimeout(carousel, 100);
 }
+*/
