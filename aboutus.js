@@ -5,8 +5,8 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      // x[i].style.display = "null";
-      x[i].parentNode.removeChild(x[i]);
+      x[i].style.display = "null";
+    //  x[i].parentNode.removeChild(x[i]);
 
     }
     myIndex++;
