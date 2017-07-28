@@ -8,36 +8,36 @@
   </head> 
   <body> 
     <!--Slide Show Starts Here --> 
-   <!-- <section>
+   <section>
   <img class="mySlides" src="groupphoto1.jpg"
   style="width:100%">
   <img class="mySlides" src=""
   style="width:100%">
   <img class="mySlides" src=""
-  style="width:100%"> -->
+  style="width:100%"> 
 </section>
     <!-- Slide Show Ends here -->
     
 <script>
 // Automatic Slideshow - change image every 3 seconds
-//var myIndex = 0;
-//carousel();
+var myIndex = 0;
+carousel();
 
-//function carousel() {
-    //var i;
-    //var x = document.getElementsByClassName("mySlides");
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
     
-    //for (i = 0; i < x.length; i++) {
-     // x[i].style.display = "none";
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
       //x[i].parentNode.removeChild(x[i]);
 
-    //}
-    //myIndex++;
-    //if (myIndex > x.length) {myIndex = 1}
-    //x[myIndex-1].style.display = "block";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
 
-    //setTimeout(carousel, 3000);
-//}</script>
+    setTimeout(carousel, 3000);
+}</script>
 
 
     
