@@ -17,7 +17,7 @@
 }
 
 .container {
-  padding: 0 14px;
+  padding: 0 3px;
 }
 
 .container::after, .row::after {
