@@ -1,6 +1,6 @@
 .column {
   float: left;
-  width: 30%;
+  width: 27.9%;
   margin-bottom: 12px;
   padding: 0 8px;
 }
@@ -16,7 +16,7 @@
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7);
 }
 
-.column:hover {
+.card:hover {
     box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
 }
 
