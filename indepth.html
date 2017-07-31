@@ -103,6 +103,10 @@ Team members are responsible for delivering exceptional customer experience and 
 <form>
 <input class="button"type="button" value="Click Here To Apply" onclick="window.location.href='http://www.snagajob.com/job-seeker/jobs/job-details.aspx?postingid=39988383'" />
 </form>
+<center><p style="margin-top:5px">Click below to favorite This!</p></center>
+<div class="fav">
+<center><p style="margin-top:0px">♥</p></center>
+</div>
 <style>
 body {
     background-color: #dee7e7;
@@ -168,17 +172,14 @@ ul.nav {
     overflow: hidden;
     background-color: #4f646f;
 }
-
 li.nav {
     float: left;
     border-right: 1px solid #dee7e7;
     font-family: Verdana
 }
-
 li.nav:last-child {
     border-right: none;
 }
-
 li.nav a, .dropbtn {
     display: inline-block;
     color: #f4faff;
@@ -186,15 +187,12 @@ li.nav a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
     background-color: lightgreen;
 }
-
 li.dropdown {
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -203,7 +201,6 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -211,10 +208,19 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
 .dropdown-content a:hover {background-color: #f1f1f1}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.fav > span:hover:before {
+   position: absolute;
+}
+div.fav{
+	font-size: 50px;
+}
+div.fav:hover{
+	color: red;
+}
 </style>
+
+
