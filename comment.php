@@ -67,8 +67,6 @@
 
     </ul>
 <center><h1>Thank you for submitting a comment!!</h1></center>
-
-
 <style>
 body {
     background-color: #dee7e7;
