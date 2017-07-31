@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<title>Jamba Juice Teams Member</title>
+<title>Jamba Juice Team Member</title>
 <div>
   <ul class = "nav">
     <li class = "nav"><a href="#home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
@@ -102,11 +102,19 @@ Team members are responsible for delivering exceptional customer experience and 
 </ul>
 <form>
 <input class="button"type="button" value="Click Here To Apply" onclick="window.location.href='http://www.snagajob.com/job-seeker/jobs/job-details.aspx?postingid=39988383'" />
+<br><br></form>
+
+<form action="comment.php" id="usrform" style="float:left; margin-left:100px;">
+  Name: <input type="text" name="usrname">
+  <input type="submit">
 </form>
-<center><p style="margin-top:5px">Click below to favorite This!</p></center>
-<div class="fav">
-<center><p style="margin-top:0px">♥</p></center>
+<br><br>
+<textarea rows="4" cols="50" name="comment" form="usrform" style="float:left; margin-left:100px; ">
+Enter text here...</textarea>
+<div class="fav" style="margin-top:0px">
+<center>♥</center>
 </div>
+<center><p style="margin-top:0px">Click above to favorite This!</p></center>
 <style>
 body {
     background-color: #dee7e7;
@@ -222,5 +230,3 @@ div.fav:hover{
 	color: red;
 }
 </style>
-
-
