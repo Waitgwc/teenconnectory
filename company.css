@@ -44,9 +44,9 @@
   Column specifics
 */
 .col .imgholder {
-  height: 250px;
-  width: 100;
-  background: #535657;
+  height: 0px;
+  width: 0;
+  background: white;
 }
 /*
   Text
