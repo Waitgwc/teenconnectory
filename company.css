@@ -69,11 +69,12 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #4f646f;
+font-family: Verdana;
 }
 li.nav {
 float: left;
 border-right: 1px solid #dee7e7;
-font-family: Verdana
+font-family: Verdana;
 }
 li.nav:last-child {
 border-right: none;
